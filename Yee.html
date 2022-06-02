@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" type="module"></script>
+    <script src="displaytime.js" type="module"></script>
+    <style>
+        .red {
+            position: absolute;
+            top: 230px;
+            left: 320px;
+            width: 500px;
+            height: 420px;
+            font-size: 400px;
+            text-align: center;
+        }
+        .blue {
+            position: absolute;
+            top: 230px;
+            left: 1090px;
+            width: 500px;
+            height: 420px;
+            font-size: 400px;
+            text-align: center;
+        }
+        .time {
+            position: absolute;
+            top: 790px;
+            left: 500px;
+            width: 930px;
+            height: 220px;
+            font-size: 200px;
+            text-align: center;
+        }
+
+        .redbadDiv {
+            position: absolute;
+            top: 695px;
+            left: 270px;
+            width: 700px;
+            height: 61px;
+            font-size: 200px;
+        }
+
+        .bluebadDiv {
+            position: absolute;
+            top: 695px;
+            left: 1060px;
+            width: 730px;
+            height: 61px;
+            font-size: 200px;
+        }
+
+        .redbad{
+            font-size: 80px;
+            color: #E8363A;
+        }
+
+        .bluebad{
+            font-size: 80px;
+            color: #1D74B5;
+        }
+
+        
+    </style>
+<script>window.HMR_WEBSOCKET_PORT=80</script>
+<script type="module" integrity="sha384-IkEG+pQ97NYQ1zPke/UZIHi6tBD3VWJ3Lwg4uIKq9r7wP0TDK0DAixk8G0+cV8SE" src="/_snowpack/hmr-client.js"></script></head>
+<body style="background: url('https://cdn.kernelspace.com.tw/FRC_Scoreboard.png')">
+    <div id="red" class="red">00</div>
+    <div id="blue" class="blue">00</div>
+    <div id="time" class="time" style="color:white">00:00</div>
+    <div class="redBadDiv">
+        <lable class="redBad">🗙</lable>
+    </div>
+    <div class="blueBadDiv">
+        <lable class="blueBad">🗙</lable>
+    </div>
+</body>
+</html>
